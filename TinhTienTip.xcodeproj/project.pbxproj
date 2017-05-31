@@ -14,6 +14,10 @@
 		054C34CC1EDEDE990009C388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054C34CA1EDEDE990009C388 /* LaunchScreen.storyboard */; };
 		054C34D71EDEDE9A0009C388 /* TinhTienTipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C34D61EDEDE9A0009C388 /* TinhTienTipTests.swift */; };
 		054C34E21EDEDE9A0009C388 /* TinhTienTipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C34E11EDEDE9A0009C388 /* TinhTienTipUITests.swift */; };
+		054C34F01EDEDF500009C388 /* LichSuThanhToanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C34EF1EDEDF500009C388 /* LichSuThanhToanTableViewController.swift */; };
+		054C34F21EDEE2E30009C388 /* LichSuThanhToanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C34F11EDEE2E30009C388 /* LichSuThanhToanTableViewCell.swift */; };
+		054C34F41EDEE3500009C388 /* CaiDatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C34F31EDEE3500009C388 /* CaiDatViewController.swift */; };
+		054C34F91EDF19FF0009C388 /* TinhTienTip.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 054C34F81EDF19FF0009C388 /* TinhTienTip.xcdatamodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		054C34DD1EDEDE9A0009C388 /* TinhTienTipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinhTienTipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		054C34E11EDEDE9A0009C388 /* TinhTienTipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinhTienTipUITests.swift; sourceTree = "<group>"; };
 		054C34E31EDEDE9A0009C388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054C34EF1EDEDF500009C388 /* LichSuThanhToanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LichSuThanhToanTableViewController.swift; sourceTree = "<group>"; };
+		054C34F11EDEE2E30009C388 /* LichSuThanhToanTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LichSuThanhToanTableViewCell.swift; sourceTree = "<group>"; };
+		054C34F31EDEE3500009C388 /* CaiDatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaiDatViewController.swift; sourceTree = "<group>"; };
+		054C34F81EDF19FF0009C388 /* TinhTienTip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TinhTienTip.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +108,13 @@
 				054C34C11EDEDE990009C388 /* AppDelegate.swift */,
 				054C34C31EDEDE990009C388 /* ViewController.swift */,
 				054C34C51EDEDE990009C388 /* Main.storyboard */,
+				054C34F81EDF19FF0009C388 /* TinhTienTip.xcdatamodel */,
 				054C34C81EDEDE990009C388 /* Assets.xcassets */,
 				054C34CA1EDEDE990009C388 /* LaunchScreen.storyboard */,
 				054C34CD1EDEDE990009C388 /* Info.plist */,
+				054C34EF1EDEDF500009C388 /* LichSuThanhToanTableViewController.swift */,
+				054C34F11EDEE2E30009C388 /* LichSuThanhToanTableViewCell.swift */,
+				054C34F31EDEE3500009C388 /* CaiDatViewController.swift */,
 			);
 			path = TinhTienTip;
 			sourceTree = "<group>";
@@ -259,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				054C34F41EDEE3500009C388 /* CaiDatViewController.swift in Sources */,
 				054C34C41EDEDE990009C388 /* ViewController.swift in Sources */,
+				054C34F21EDEE2E30009C388 /* LichSuThanhToanTableViewCell.swift in Sources */,
+				054C34F01EDEDF500009C388 /* LichSuThanhToanTableViewController.swift in Sources */,
+				054C34F91EDF19FF0009C388 /* TinhTienTip.xcdatamodel in Sources */,
 				054C34C21EDEDE990009C388 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
