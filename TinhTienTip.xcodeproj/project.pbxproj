@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		054C34C21EDEDE990009C388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C34C11EDEDE990009C388 /* AppDelegate.swift */; };
+		054C34C41EDEDE990009C388 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C34C31EDEDE990009C388 /* ViewController.swift */; };
+		054C34C71EDEDE990009C388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054C34C51EDEDE990009C388 /* Main.storyboard */; };
+		054C34C91EDEDE990009C388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054C34C81EDEDE990009C388 /* Assets.xcassets */; };
+		054C34CC1EDEDE990009C388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054C34CA1EDEDE990009C388 /* LaunchScreen.storyboard */; };
+		054C34D71EDEDE9A0009C388 /* TinhTienTipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C34D61EDEDE9A0009C388 /* TinhTienTipTests.swift */; };
+		054C34E21EDEDE9A0009C388 /* TinhTienTipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C34E11EDEDE9A0009C388 /* TinhTienTipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		054C34D31EDEDE9A0009C388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 054C34B61EDEDE970009C388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 054C34BD1EDEDE980009C388;
+			remoteInfo = TinhTienTip;
+		};
+		054C34DE1EDEDE9A0009C388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 054C34B61EDEDE970009C388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 054C34BD1EDEDE980009C388;
+			remoteInfo = TinhTienTip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054C34BE1EDEDE980009C388 /* TinhTienTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinhTienTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		054C34C11EDEDE990009C388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		054C34C31EDEDE990009C388 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		054C34C61EDEDE990009C388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		054C34C81EDEDE990009C388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		054C34CB1EDEDE990009C388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		054C34CD1EDEDE990009C388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054C34D21EDEDE9A0009C388 /* TinhTienTipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinhTienTipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		054C34D61EDEDE9A0009C388 /* TinhTienTipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinhTienTipTests.swift; sourceTree = "<group>"; };
+		054C34D81EDEDE9A0009C388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054C34DD1EDEDE9A0009C388 /* TinhTienTipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinhTienTipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		054C34E11EDEDE9A0009C388 /* TinhTienTipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinhTienTipUITests.swift; sourceTree = "<group>"; };
+		054C34E31EDEDE9A0009C388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		054C34BB1EDEDE980009C388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054C34CF1EDEDE9A0009C388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054C34DA1EDEDE9A0009C388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		054C34B51EDEDE970009C388 = {
+			isa = PBXGroup;
+			children = (
+				054C34C01EDEDE980009C388 /* TinhTienTip */,
+				054C34D51EDEDE9A0009C388 /* TinhTienTipTests */,
+				054C34E01EDEDE9A0009C388 /* TinhTienTipUITests */,
+				054C34BF1EDEDE980009C388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		054C34BF1EDEDE980009C388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				054C34BE1EDEDE980009C388 /* TinhTienTip.app */,
+				054C34D21EDEDE9A0009C388 /* TinhTienTipTests.xctest */,
+				054C34DD1EDEDE9A0009C388 /* TinhTienTipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		054C34C01EDEDE980009C388 /* TinhTienTip */ = {
+			isa = PBXGroup;
+			children = (
+				054C34C11EDEDE990009C388 /* AppDelegate.swift */,
+				054C34C31EDEDE990009C388 /* ViewController.swift */,
+				054C34C51EDEDE990009C388 /* Main.storyboard */,
+				054C34C81EDEDE990009C388 /* Assets.xcassets */,
+				054C34CA1EDEDE990009C388 /* LaunchScreen.storyboard */,
+				054C34CD1EDEDE990009C388 /* Info.plist */,
+			);
+			path = TinhTienTip;
+			sourceTree = "<group>";
+		};
+		054C34D51EDEDE9A0009C388 /* TinhTienTipTests */ = {
+			isa = PBXGroup;
+			children = (
+				054C34D61EDEDE9A0009C388 /* TinhTienTipTests.swift */,
+				054C34D81EDEDE9A0009C388 /* Info.plist */,
+			);
+			path = TinhTienTipTests;
+			sourceTree = "<group>";
+		};
+		054C34E01EDEDE9A0009C388 /* TinhTienTipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				054C34E11EDEDE9A0009C388 /* TinhTienTipUITests.swift */,
+				054C34E31EDEDE9A0009C388 /* Info.plist */,
+			);
+			path = TinhTienTipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		054C34BD1EDEDE980009C388 /* TinhTienTip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054C34E61EDEDE9B0009C388 /* Build configuration list for PBXNativeTarget "TinhTienTip" */;
+			buildPhases = (
+				054C34BA1EDEDE980009C388 /* Sources */,
+				054C34BB1EDEDE980009C388 /* Frameworks */,
+				054C34BC1EDEDE980009C388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinhTienTip;
+			productName = TinhTienTip;
+			productReference = 054C34BE1EDEDE980009C388 /* TinhTienTip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		054C34D11EDEDE9A0009C388 /* TinhTienTipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054C34E91EDEDE9B0009C388 /* Build configuration list for PBXNativeTarget "TinhTienTipTests" */;
+			buildPhases = (
+				054C34CE1EDEDE9A0009C388 /* Sources */,
+				054C34CF1EDEDE9A0009C388 /* Frameworks */,
+				054C34D01EDEDE9A0009C388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				054C34D41EDEDE9A0009C388 /* PBXTargetDependency */,
+			);
+			name = TinhTienTipTests;
+			productName = TinhTienTipTests;
+			productReference = 054C34D21EDEDE9A0009C388 /* TinhTienTipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		054C34DC1EDEDE9A0009C388 /* TinhTienTipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054C34EC1EDEDE9B0009C388 /* Build configuration list for PBXNativeTarget "TinhTienTipUITests" */;
+			buildPhases = (
+				054C34D91EDEDE9A0009C388 /* Sources */,
+				054C34DA1EDEDE9A0009C388 /* Frameworks */,
+				054C34DB1EDEDE9A0009C388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				054C34DF1EDEDE9A0009C388 /* PBXTargetDependency */,
+			);
+			name = TinhTienTipUITests;
+			productName = TinhTienTipUITests;
+			productReference = 054C34DD1EDEDE9A0009C388 /* TinhTienTipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		054C34B61EDEDE970009C388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HCMUTE;
+				TargetAttributes = {
+					054C34BD1EDEDE980009C388 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					054C34D11EDEDE9A0009C388 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 054C34BD1EDEDE980009C388;
+					};
+					054C34DC1EDEDE9A0009C388 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 054C34BD1EDEDE980009C388;
+					};
+				};
+			};
+			buildConfigurationList = 054C34B91EDEDE970009C388 /* Build configuration list for PBXProject "TinhTienTip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 054C34B51EDEDE970009C388;
+			productRefGroup = 054C34BF1EDEDE980009C388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				054C34BD1EDEDE980009C388 /* TinhTienTip */,
+				054C34D11EDEDE9A0009C388 /* TinhTienTipTests */,
+				054C34DC1EDEDE9A0009C388 /* TinhTienTipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		054C34BC1EDEDE980009C388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054C34CC1EDEDE990009C388 /* LaunchScreen.storyboard in Resources */,
+				054C34C91EDEDE990009C388 /* Assets.xcassets in Resources */,
+				054C34C71EDEDE990009C388 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054C34D01EDEDE9A0009C388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054C34DB1EDEDE9A0009C388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		054C34BA1EDEDE980009C388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054C34C41EDEDE990009C388 /* ViewController.swift in Sources */,
+				054C34C21EDEDE990009C388 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054C34CE1EDEDE9A0009C388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054C34D71EDEDE9A0009C388 /* TinhTienTipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054C34D91EDEDE9A0009C388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054C34E21EDEDE9A0009C388 /* TinhTienTipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		054C34D41EDEDE9A0009C388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 054C34BD1EDEDE980009C388 /* TinhTienTip */;
+			targetProxy = 054C34D31EDEDE9A0009C388 /* PBXContainerItemProxy */;
+		};
+		054C34DF1EDEDE9A0009C388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 054C34BD1EDEDE980009C388 /* TinhTienTip */;
+			targetProxy = 054C34DE1EDEDE9A0009C388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		054C34C51EDEDE990009C388 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				054C34C61EDEDE990009C388 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		054C34CA1EDEDE990009C388 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				054C34CB1EDEDE990009C388 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		054C34E41EDEDE9B0009C388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		054C34E51EDEDE9B0009C388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		054C34E71EDEDE9B0009C388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TinhTienTip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IT.TinhTienTip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		054C34E81EDEDE9B0009C388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TinhTienTip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IT.TinhTienTip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		054C34EA1EDEDE9B0009C388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TinhTienTipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IT.TinhTienTipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinhTienTip.app/TinhTienTip";
+			};
+			name = Debug;
+		};
+		054C34EB1EDEDE9B0009C388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TinhTienTipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IT.TinhTienTipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinhTienTip.app/TinhTienTip";
+			};
+			name = Release;
+		};
+		054C34ED1EDEDE9B0009C388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TinhTienTipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IT.TinhTienTipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TinhTienTip;
+			};
+			name = Debug;
+		};
+		054C34EE1EDEDE9B0009C388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TinhTienTipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IT.TinhTienTipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TinhTienTip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		054C34B91EDEDE970009C388 /* Build configuration list for PBXProject "TinhTienTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054C34E41EDEDE9B0009C388 /* Debug */,
+				054C34E51EDEDE9B0009C388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		054C34E61EDEDE9B0009C388 /* Build configuration list for PBXNativeTarget "TinhTienTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054C34E71EDEDE9B0009C388 /* Debug */,
+				054C34E81EDEDE9B0009C388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		054C34E91EDEDE9B0009C388 /* Build configuration list for PBXNativeTarget "TinhTienTipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054C34EA1EDEDE9B0009C388 /* Debug */,
+				054C34EB1EDEDE9B0009C388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		054C34EC1EDEDE9B0009C388 /* Build configuration list for PBXNativeTarget "TinhTienTipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054C34ED1EDEDE9B0009C388 /* Debug */,
+				054C34EE1EDEDE9B0009C388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 054C34B61EDEDE970009C388 /* Project object */;
+}
